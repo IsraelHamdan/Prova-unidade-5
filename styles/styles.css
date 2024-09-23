@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fffbe6;
+  min-width: 100vw;
+  max-width: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6e9b2;
+  font-family: "Lily Script One", cursive;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.btn-header {
+  width: 125px;
+  height: 50px;
+  font-size: 12px;
+  margin-right: 10px;
+  border-radius: 30px;
+  padding: 1em;
+  background-color: #fffbe6;
+  border: none;
+  margin: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  height: 500px;
+  max-width: 250px;
+  margin: 10px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #f6e9b2;
+  border: none;
+  overflow: auto;
+}
+.card-title {
+  display: flex;
+  font-size: 20px;
+  font-family: "Lily Script One", cursive;
+  margin-top: 5px;
+  gap: 0.5rem;
+}
+
+.card-p {
+  height: 100%;
+  font-size: 16px;
+  padding: 1px;
+  max-height: 100%;
+  word-wrap: break-word;
+}
+.card-btn {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #fffbe6;
+  margin: 2px;
+}
+
+.card-img {
+  width: 100%;
+  padding: 0, 0, 0, 0;
+}
+
+.card-btn_link {
+  color: #8adab2;
+  text-decoration: none;
+  background: none;
+  font-size: 1.5em;
+  padding: 1rem;
+}
